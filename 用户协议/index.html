@@ -1,0 +1,1164 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>免责声明 | Small Hao Blog</title><meta name="author" content="SmallHao"><meta name="copyright" content="SmallHao"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="免责声明"><meta name="application-name" content="免责声明"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="免责声明"><meta property="og:url" content="http://example.com/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE/index.html"><meta property="og:site_name" content="Small Hao Blog"><meta property="og:description" content="SmallHao免责声明【免责声明】本博客所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本博客无关。 一个网络安全法律法规、安全政策、国家标准、行业标准知识库。 资源导航 公安部公布打击黑客犯罪 10 起典型案例：https:&amp;#x2F;&amp;#x2F;"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://img.smallhao.ddns-ip.net/IMG_6062.jpeg"><meta property="article:author" content="SmallHao"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://img.smallhao.ddns-ip.net/IMG_6062.jpeg"><meta name="description" content="SmallHao免责声明【免责声明】本博客所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本博客无关。 一个网络安全法律法规、安全政策、国家标准、行业标准知识库。 资源导航 公安部公布打击黑客犯罪 10 起典型案例：https:&amp;#x2F;&amp;#x2F;"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://example.com/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png"},
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: SmallHao","link":"链接: ","source":"来源: Small Hao Blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Small Hao Blog',
+  title: '免责声明',
+  postAI: '',
+  pageFillDescription: 'SmallHao免责声明, 资源导航, 法律法规, 常见标准代号, 2024 年新发布, 2023 年新发布, 2022 年新发布, 2021 年及以前（按体系分类）, 一般性法律规定, 规范和惩罚信息网络犯罪的法律, 直接针对信息安全的特别规定, 具体规范信息安全技术、信息安全管理, 关键词, 安全等级保护, 数据安全, 开源软件, 信创免责声明免责声明本博客所涉及的技术思路和工具仅供学习任何人不得将其用于非法用途和盈利不得将其用于非授权渗透测试否则后果自行承担与本博客无关一个网络安全法律法规安全政策国家标准行业标准知识库资源导航公安部公布打击黑客犯罪起典型案例公安部公布百日行动期间打击网络违法犯罪十大典型案例国家标准全文公开系统国家法律法规数据库全国标准信息公共服务平台自年月日后新发布的标准将在发布后个工作日内公开国家互联网信息办公室法律法规常见标准代号强制性国家标准代号推荐性国家标准代号指导性技术文件代号实物标准代号年新发布标准号标准名称发布日期实施日期网络安全设备技术要求第部分应用防护系统网络安全设备技术要求第部分防火墙网络安全设备技术要求第部分入侵防御系统网络安全技术网络弹性评价准则网络安全技术存储介质数据恢复服务安全规范汽车诊断接口信息安全技术要求及试验方法汽车信息安全应急响应管理规范网络安全技术智能门锁网络安全技术规范工业互联网企业网络安全第部分平台企业防护要求工业互联网企业网络安全第部分标识解析企业防护要求工业互联网企业网络安全第部分应用工业互联网的工业企业防护要求网络安全技术消息鉴别码第部分采用专门设计的杂凑函数的机制网络安全技术办公设备安全规范网络安全技术网络和终端隔离产品技术规范网络安全技术信息安全控制网络安全技术实体鉴别第部分采用鉴别式加密的机制网络安全技术杂凑函数第部分总则网络安全技术杂凑函数第部分采用分组密码的杂凑函数网络安全技术杂凑函数第部分专门设计的杂凑函数风险管理在接入网络的医疗器械中的应用第部分联网医疗器械或健康软件在其实施和使用中的安全有效性和网络安全汽车整车信息安全技术要求网络安全技术软件产品开源代码安全评价方法网络安全技术基于密码令牌的主叫用户可信身份鉴别技术规范网络安全技术网络安全众测服务要求网络安全技术软件供应链安全要求网络安全技术零信任参考体系架构网络安全技术证书应用综合服务接口规范网络安全技术无线局域网接入系统安全技术要求网络安全技术无线局域网客户端安全技术要求网络安全技术信息技术安全评估方法网络安全技术信息技术安全评估准则第部分预定义的安全要求包网络安全技术信息技术安全评估准则第部分评估方法和活动的规范框架网络安全技术信息技术安全评估准则第部分安全保障组件网络安全技术信息技术安全评估准则第部分安全功能组件网络安全技术信息技术安全评估准则第部分简介和一般模型网络安全技术抗抵赖第部分用非对称技术的机制网络安全技术信息安全管理监视测量分析和评价网络安全技术抗抵赖第部分概述网络安全技术实体鉴别第部分用密码校验函数的机制年新发布标准号标准名称发布日期实施日期信息安全技术通用密码服务接口规范信息安全技术电子发现第部分概述和概念信息安全技术射频识别系统安全技术规范信息安全技术网络安全信息报送指南信息安全技术信息安全管理体系概述和词汇核电厂仪表和控制系统网络安全防范管控信息安全技术网络安全应急能力评估准则信息安全技术移动互联网应用程序软件开发工具包安全要求信息安全技术移动智能终端预置应用软件基本安全要求公共安全视频监控联网信息安全测试规范第三方电子合同服务平台信息安全技术要求信息技术服务应对突发公共安全事件的信息技术应急风险管理信息安全技术信息系统密码应用设计指南信息安全技术信息系统密码应用测评要求信息安全技术信息安全控制评估指南信息安全技术网络安全服务能力要求信息安全技术移动互联网应用程序生命周期安全管理指南信息安全技术机器学习算法安全评估规范信息安全技术大数据服务安全能力要求信息安全技术网络安全信息共享指南金融信息系统网络安全风险评估规范金融网络安全威胁信息共享指南信息安全技术电子凭据服务安全规范信息安全技术信息安全风险管理实施指南信息安全技术云计算服务安全能力要求信息安全技术云计算服务安全指南信息安全技术个人信息处理中告知和同意的实施指南信息安全技术可信执行环境服务规范信息安全技术政务网络安全监测平台技术规范信息安全技术区块链信息服务安全规范信息安全技术移动互联网应用程序个人信息安全测评规范信息安全技术区块链技术安全框架信息安全技术边缘计算安全技术要求信息安全技术网络入侵防御产品技术规范信息安全技术网络安全审计产品技术规范信息安全技术反垃圾邮件产品技术规范信息安全技术网络安全事件分类分级指南信息安全技术网络身份服务安全技术要求信息安全技术电子政务移动办公系统安全技术规范信息安全技术行业间和组织间通信的信息安全管理信息安全技术电信领域数据安全指南信息安全技术网络安全态势感知通用技术要求信息安全技术个人信息去标识化效果评估指南信息安全技术安全接入基本要求与实施指南信息安全技术公钥基础设施系统安全测评方法信息安全技术公钥基础设施系统安全技术要求信息安全技术信息系统安全保障评估框架第部分简介和一般模型信息安全技术公共域名服务系统安全要求信息安全技术网络安全服务成本度量指南信息安全技术网络安全从业人员能力基本要求年新发布标准号名称发布日期实施日期信息安全技术网络安全专用产品安全技术要求信息安全技术个人信息安全工程指南信息安全技术人脸识别数据安全要求信息安全技术基因识别数据安全要求信息安全技术步态识别数据安全要求信息安全技术声纹识别数据安全要求信息安全技术网上购物服务数据安全要求信息安全技术即时通信服务数据安全要求信息安全技术网络支付服务数据安全要求信息安全技术网络预约汽车服务数据安全要求信息安全技术网络音视频服务数据安全要求信息安全技术快递物流服务数据安全要求信息安全技术汽车数据处理安全要求信息安全技术关键信息基础设施安全保护要求电动汽车充电系统信息安全技术要求及试验方法信息安全技术工业控制系统信息安全防护能力成熟度模型信息安全技术信息安全风险评估方法信息技术安全技术公有云中个人信息保护实践指南信息安全技术智能家居通用安全规范信息安全技术可信执行环境基本安全规范信息安全技术密码算法使用规范信息安全技术移动互联网应用程序收集个人信息基本要求信息安全技术网络数据处理安全要求信息安全技术信息安全风险评估方法代替标准号信息安全技术信息安全风险评估规范信息安全技术可信计算密码支撑平台功能与接口规范代替标准号信息安全技术可信计算密码支撑平台功能与接口规范信息安全技术信息安全服务分类与代码代替标准号信息安全技术信息安全服务分类信息安全技术政务网站系统安全指南代替标准号信息安全技术政府门户网站系统安全技术指南信息安全技术术语网络安全审查办法年及以前按体系分类一般性法律规定中华人民共和国宪法法律效力位阶宪法施行日期中华人民共和国国家安全法法律效力位阶法律施行日期中华人民共和国治安管理处罚法法律效力位阶法律施行日期中华人民共和国保守国家秘密法法律效力位阶法律施行日期规范和惩罚信息网络犯罪的法律中华人民共和国刑法法律效力位阶法律施行日期全国人民代表大会常务委员会关于维护互联网安全的决定法律效力位阶有关法律问题和重大问题的决定施行日期直接针对信息安全的特别规定中华人民共和国网络安全法法律效力位阶法律施行日期中华人民共和国计算机信息系统安全保护条例法律效力位阶行政法规公布日期中华人民共和国电信条例法律效力位阶行政法规公布日期中华人民共和国计算机信息网络国际联网管理暂行规定法律效力位阶行政法规公布日期计算机信息网络国际联网安全保护管理办法法律效力位阶行政法规公布日期具体规范信息安全技术信息安全管理中华人民共和国电子签名法法律效力位阶法律施行日期计算机软件保护条例法律效力位阶行政法规公布日期商用密码管理条例法律效力位阶行政法规公布日期中华人民共和国保守国家秘密法实施条例法律效力位阶行政法规公布日期信息安全技术病毒防治产品安全技术要求和测试评价方法施行日期计算机信息系统国际联网保密管理规定颁布单位国家保密局施行日期金融机构计算机信息系统安全保护工作暂行规定颁布单位公安部颁布时间关键词安全等级保护信息安全技术网络安全等级保护定级指南发布日期信息安全技术网络安全等级保护实施指南发布日期信息安全技术网络安全等级保护安全设计技术要求发布日期信息安全技术网络安全等级保护基本要求发布日期信息安全技术网络安全等级保护测评要求发布日期信息安全技术网络安全等级保护测评过程指南发布日期信息安全技术网络安全等级保护安全管理中心技术要求发布日期信息安全技术网络安全等级保护测评机构能力要求和评估规范发布日期电力信息系统安全等级保护实施指南发布日期信息安全技术网络安全等级保护测试评估技术指南发布日期公安物联网系统信息安全等级保护要求发布日期数据安全数据安全技术应用商店的移动互联网应用程序个人信息处理规范性审核与管理指南发布日期实施日期数据安全技术数据分类分级规则发布日期实施日期证券期货业数据安全风险防控数据分类分级指引发布日期实施日期数据安全技术大数据服务安全能力要求发布日期实施日期信息安全技术电信领域数据安全指南发布日期实施日期信息安全技术人脸识别数据安全要求发布日期实施日期信息安全技术基因识别数据安全要求发布日期实施日期信息安全技术步态识别数据安全要求发布日期实施日期信息安全技术声纹识别数据安全要求发布日期实施日期信息安全技术网上购物服务数据安全要求发布日期实施日期信息安全技术即时通信服务数据安全要求发布日期实施日期信息安全技术网络支付服务数据安全要求发布日期实施日期信息安全技术网络预约汽车服务数据安全要求发布日期实施日期信息安全技术网络音视频服务数据安全要求发布日期实施日期信息安全技术快递物流服务数据安全要求发布日期实施日期信息安全技术健康医疗数据安全指南发布日期实施日期信息安全技术政务信息共享数据安全技术要求发布日期实施日期信息安全技术大数据安全管理指南发布日期实施日期信息安全技术数据安全能力成熟度模型发布日期实施日期智能交通数据安全服务发布日期实施日期开源软件金融行业开源软件测评规范发布日期实施日期信创网络关键设备和网络安全专用产品安全认证和安全检测结果检索发布日期共项符合标准等网络关键设备和网络安全专用产品目录发布日期',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2025-03-20 10:35:26',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://img.smallhao.ddns-ip.net/IMG_6062.jpeg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">Small Hao Blog</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 免责声明</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 免责声明</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/%E8%BD%AC%E8%BD%BD%E9%A1%BB%E7%9F%A5/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 转载须知</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://img.smallhao.ddns-ip.net/making.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.smallhao.ddns-ip.net/making.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://img.smallhao.ddns-ip.net/zhifubao.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.smallhao.ddns-ip.net/zhifubao.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/%E6%94%BB%E9%98%B2%E7%9F%A5%E8%AF%86/" style="font-size: 1.05rem;">攻防知识<sup>5</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/03/"><span class="card-archive-list-date">三月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="page-site-info"><h1 id="site-title">免责声明</h1></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="page"><div id="article-container"><h1 id="SmallHao免责声明"><a href="#SmallHao免责声明" class="headerlink" title="SmallHao免责声明"></a>SmallHao免责声明</h1><p><strong>【免责声明】本博客所涉及的技术、思路和工具仅供学习，任何人不得将其用于非法用途和盈利，不得将其用于非授权渗透测试，否则后果自行承担，与本博客无关。</strong></p>
+<p>一个网络安全法律法规、安全政策、国家标准、行业标准知识库。</p>
+<h2 id="资源导航"><a href="#资源导航" class="headerlink" title="资源导航"></a>资源导航</h2><ul>
+<li>公安部公布打击黑客犯罪 10 起典型案例：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/vKqjc1uTajClu7bsn9yfLA">https://mp.weixin.qq.com/s/vKqjc1uTajClu7bsn9yfLA</a></li>
+<li>公安部公布“百日行动”期间打击网络违法犯罪十大典型案例：<a target="_blank" rel="noopener" href="https://news.cctv.com/2022/09/08/ARTIQLE0cQRPbqjPxAsOeUFe220908.shtml">https://news.cctv.com/2022/09/08/ARTIQLE0cQRPbqjPxAsOeUFe220908.shtml</a></li>
+<li>国家标准全文公开系统：<a target="_blank" rel="noopener" href="http://openstd.samr.gov.cn/bzgk/gb/index">http://openstd.samr.gov.cn/bzgk/gb/index</a></li>
+<li>国家法律法规数据库：<a target="_blank" rel="noopener" href="https://flk.npc.gov.cn/index.html">https://flk.npc.gov.cn/index.html</a></li>
+<li>全国标准信息公共服务平台：<a target="_blank" rel="noopener" href="http://std.samr.gov.cn/">http://std.samr.gov.cn/</a></li>
+<li>自 2017 年 1 月 1 日后新发布的标准将在发布后 20 个工作日内公开</li>
+<li>国家互联网信息办公室 ：<a target="_blank" rel="noopener" href="http://www.cac.gov.cn/">http://www.cac.gov.cn/</a></li>
+</ul>
+<h2 id="法律法规"><a href="#法律法规" class="headerlink" title="法律法规"></a>法律法规</h2><h3 id="常见标准代号"><a href="#常见标准代号" class="headerlink" title="常见标准代号"></a>常见标准代号</h3><ul>
+<li>强制性国家标准代号 GB</li>
+<li>推荐性国家标准代号 GB&#x2F;T</li>
+<li>指导性技术文件代号 GB&#x2F;Z</li>
+<li>实物标准代号 GSB</li>
+</ul>
+<h3 id="2024-年新发布"><a href="#2024-年新发布" class="headerlink" title="2024 年新发布"></a>2024 年新发布</h3><table>
+<thead>
+<tr>
+<th>标准号</th>
+<th>标准名称</th>
+<th>发布日期</th>
+<th>实施日期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GB&#x2F;T 44810.2-2024</td>
+<td>IPv6 网络安全设备技术要求 第 2 部分：Web 应用防护系统（WAF）</td>
+<td>2024-10-26</td>
+<td>2025-02-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44810.1-2024</td>
+<td>IPv6 网络安全设备技术要求 第 1 部分：防火墙</td>
+<td>2024-10-26</td>
+<td>2025-02-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44810.3-2024</td>
+<td>IPv6 网络安全设备技术要求 第 3 部分：入侵防御系统（IPS）</td>
+<td>2024-10-26</td>
+<td>2025-02-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44862-2024</td>
+<td>网络安全技术 网络弹性评价准则</td>
+<td>2024-10-26</td>
+<td>2025-05-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 31500-2024</td>
+<td>网络安全技术 存储介质数据恢复服务安全规范</td>
+<td>2024-10-26</td>
+<td>2025-05-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44778-2024</td>
+<td>汽车诊断接口信息安全技术要求及试验方法</td>
+<td>2024-10-26</td>
+<td>2024-10-26</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44774-2024</td>
+<td>汽车信息安全应急响应管理规范</td>
+<td>2024-10-26</td>
+<td>2024-10-26</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44602-2024</td>
+<td>网络安全技术 智能门锁网络安全技术规范</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44462.2-2024</td>
+<td>工业互联网企业网络安全 第 2 部分：平台企业防护要求</td>
+<td>2024-09-29</td>
+<td>2025-01-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44462.3-2024</td>
+<td>工业互联网企业网络安全 第 3 部分：标识解析企业防护要求</td>
+<td>2024-09-29</td>
+<td>2025-01-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44462.1-2024</td>
+<td>工业互联网企业网络安全 第 1 部分：应用工业互联网的工业企业防护要求</td>
+<td>2024-09-29</td>
+<td>2025-01-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 15852.2-2024</td>
+<td>网络安全技术 消息鉴别码 第 2 部分：采用专门设计的杂凑函数的机制</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 29244-2024</td>
+<td>网络安全技术 办公设备安全规范</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 20279-2024</td>
+<td>网络安全技术 网络和终端隔离产品技术规范</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 22081-2024</td>
+<td>网络安全技术 信息安全控制</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 15843.2-2024</td>
+<td>网络安全技术 实体鉴别 第 2 部分：采用鉴别式加密的机制</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18238.1-2024</td>
+<td>网络安全技术 杂凑函数 第 1 部分：总则</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18238.2-2024</td>
+<td>网络安全技术 杂凑函数 第 2 部分：采用分组密码的杂凑函数</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18238.3-2024</td>
+<td>网络安全技术 杂凑函数 第 3 部分：专门设计的杂凑函数</td>
+<td>2024-09-29</td>
+<td>2025-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 44585.1-2024</td>
+<td>风险管理在接入 IT 网络的医疗器械中的应用 第 1 部分：联网医疗器械或健康软件在其实施和使用中的安全、有效性和网络安全</td>
+<td>2024-09-29</td>
+<td>2026-04-01</td>
+</tr>
+<tr>
+<td>GB 44495-2024</td>
+<td>汽车整车信息安全技术要求</td>
+<td>2024-08-23</td>
+<td>2026-01-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43848-2024</td>
+<td>网络安全技术 软件产品开源代码安全评价方法</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43779-2024</td>
+<td>网络安全技术 基于密码令牌的主叫用户可信身份鉴别技术规范</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43741-2024</td>
+<td>网络安全技术 网络安全众测服务要求</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43698-2024</td>
+<td>网络安全技术 软件供应链安全要求</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43696-2024</td>
+<td>网络安全技术 零信任参考体系架构</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43694-2024</td>
+<td>网络安全技术 证书应用综合服务接口规范</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 33565-2024</td>
+<td>网络安全技术 无线局域网接入系统安全技术要求</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 33563-2024</td>
+<td>网络安全技术 无线局域网客户端安全技术要求</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 30270-2024</td>
+<td>网络安全技术 信息技术安全评估方法</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18336.5-2024</td>
+<td>网络安全技术 信息技术安全评估准则 第 5 部分：预定义的安全要求包</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18336.4-2024</td>
+<td>网络安全技术 信息技术安全评估准则 第 4 部分：评估方法和活动的规范框架</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18336.3-2024</td>
+<td>网络安全技术 信息技术安全评估准则 第 3 部分：安全保障组件</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18336.2-2024</td>
+<td>网络安全技术 信息技术安全评估准则 第 2 部分：安全功能组件</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 18336.1-2024</td>
+<td>网络安全技术 信息技术安全评估准则 第 1 部分：简介和一般模型</td>
+<td>2024-04-25</td>
+<td>2024-11-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 17903.3-2024</td>
+<td>网络安全技术 抗抵赖 第 3 部分：用非对称技术的机制</td>
+<td>2024-03-15</td>
+<td>2024-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 31497-2024</td>
+<td>网络安全技术 信息安全管理 监视、测量、分析和评价</td>
+<td>2024-03-15</td>
+<td>2024-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 17903.1-2024</td>
+<td>网络安全技术 抗抵赖 第 1 部分：概述</td>
+<td>2024-03-15</td>
+<td>2024-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 15843.4-2024</td>
+<td>网络安全技术 实体鉴别 第 4 部分：用密码校验函数的机制</td>
+<td>2024-03-15</td>
+<td>2024-10-01</td>
+</tr>
+</tbody></table>
+<h3 id="2023-年新发布"><a href="#2023-年新发布" class="headerlink" title="2023 年新发布"></a>2023 年新发布</h3><table>
+<thead>
+<tr>
+<th>标准号</th>
+<th>标准名称</th>
+<th>发布日期</th>
+<th>实施日期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>GB&#x2F;T 43578-2023</td>
+<td>信息安全技术 通用密码服务接口规范</td>
+<td>2023-12-28</td>
+<td>2024-07-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43577.1-2023</td>
+<td>信息安全技术 电子发现 第 1 部分：概述和概念</td>
+<td>2023-12-28</td>
+<td>2024-07-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 35290-2023</td>
+<td>信息安全技术 射频识别（RFID）系统安全技术规范</td>
+<td>2023-12-28</td>
+<td>2024-07-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43557-2023</td>
+<td>信息安全技术 网络安全信息报送指南</td>
+<td>2023-12-28</td>
+<td>2024-07-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 29246-2023</td>
+<td>信息安全技术 信息安全管理体系 概述和词汇</td>
+<td>2023-12-28</td>
+<td>2024-07-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43532-2023</td>
+<td>核电厂仪表和控制系统网络安全防范管控</td>
+<td>2023-12-28</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43269-2023</td>
+<td>信息安全技术 网络安全应急能力评估准则</td>
+<td>2023-11-27</td>
+<td>2024-06-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43435-2023</td>
+<td>信息安全技术 移动互联网应用程序（App）软件开发工具包（SDK）安全要求</td>
+<td>2023-11-27</td>
+<td>2024-06-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43445-2023</td>
+<td>信息安全技术 移动智能终端预置应用软件基本安全要求</td>
+<td>2023-11-27</td>
+<td>2024-06-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43026-2023</td>
+<td>公共安全视频监控联网信息安全测试规范</td>
+<td>2023-09-07</td>
+<td>2024-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42971-2023</td>
+<td>第三方电子合同服务平台信息安全技术要求</td>
+<td>2023-09-07</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43046-2023</td>
+<td>信息技术服务 应对突发公共安全事件的信息技术应急风险管理</td>
+<td>2023-09-07</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43207-2023</td>
+<td>信息安全技术 信息系统密码应用设计指南</td>
+<td>2023-09-07</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 43206-2023</td>
+<td>信息安全技术 信息系统密码应用测评要求</td>
+<td>2023-09-07</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 32916-2023</td>
+<td>信息安全技术 信息安全控制评估指南</td>
+<td>2023-09-07</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 32914-2023</td>
+<td>信息安全技术 网络安全服务能力要求</td>
+<td>2023-09-07</td>
+<td>2024-04-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42884-2023</td>
+<td>信息安全技术 移动互联网应用程序（App）生命周期安全管理指南</td>
+<td>2023-08-06</td>
+<td>2024-03-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42888-2023</td>
+<td>信息安全技术 机器学习算法安全评估规范</td>
+<td>2023-08-06</td>
+<td>2024-03-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 35274-2023</td>
+<td>信息安全技术 大数据服务安全能力要求</td>
+<td>2023-08-06</td>
+<td>2024-03-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;Z 42885-2023</td>
+<td>信息安全技术 网络安全信息共享指南</td>
+<td>2023-08-06</td>
+<td>2024-03-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42926-2023</td>
+<td>金融信息系统网络安全风险评估规范</td>
+<td>2023-08-06</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42708-2023</td>
+<td>金融网络安全威胁信息共享指南</td>
+<td>2023-08-06</td>
+<td>2023-08-06</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42589-2023</td>
+<td>信息安全技术 电子凭据服务安全规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 24364-2023</td>
+<td>信息安全技术 信息安全风险管理实施指南</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 31168-2023</td>
+<td>信息安全技术 云计算服务安全能力要求</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 31167-2023</td>
+<td>信息安全技术 云计算服务安全指南</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42574-2023</td>
+<td>信息安全技术 个人信息处理中告知和同意的实施指南</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42572-2023</td>
+<td>信息安全技术 可信执行环境服务规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42583-2023</td>
+<td>信息安全技术 政务网络安全监测平台技术规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42571-2023</td>
+<td>信息安全技术 区块链信息服务安全规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42582-2023</td>
+<td>信息安全技术 移动互联网应用程序（App）个人信息安全测评规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42570-2023</td>
+<td>信息安全技术 区块链技术安全框架</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42564-2023</td>
+<td>信息安全技术 边缘计算安全技术要求</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 28451-2023</td>
+<td>信息安全技术 网络入侵防御产品技术规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 20945-2023</td>
+<td>信息安全技术 网络安全审计产品技术规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 30282-2023</td>
+<td>信息安全技术 反垃圾邮件产品技术规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 20986-2023</td>
+<td>信息安全技术 网络安全事件分类分级指南</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42573-2023</td>
+<td>信息安全技术 网络身份服务安全技术要求</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 35282-2023</td>
+<td>信息安全技术 电子政务移动办公系统安全技术规范</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 32920-2023</td>
+<td>信息安全技术 行业间和组织间通信的信息安全管理</td>
+<td>2023-05-23</td>
+<td>2023-12-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42447-2023</td>
+<td>信息安全技术 电信领域数据安全指南</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42453-2023</td>
+<td>信息安全技术 网络安全态势感知通用技术要求</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42460-2023</td>
+<td>信息安全技术 个人信息去标识化效果评估指南</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 32922-2023</td>
+<td>信息安全技术 IPSec VPN 安全接入基本要求与实施指南</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 21054-2023</td>
+<td>信息安全技术 公钥基础设施 PKI 系统安全测评方法</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 21053-2023</td>
+<td>信息安全技术 公钥基础设施 PKI 系统安全技术要求</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 20274.1-2023</td>
+<td>信息安全技术 信息系统安全保障评估框架 第 1 部分：简介和一般模型</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 33134-2023</td>
+<td>信息安全技术 公共域名服务系统安全要求</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42461-2023</td>
+<td>信息安全技术 网络安全服务成本度量指南</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+<tr>
+<td>GB&#x2F;T 42446-2023</td>
+<td>信息安全技术 网络安全从业人员能力基本要求</td>
+<td>2023-03-17</td>
+<td>2023-10-01</td>
+</tr>
+</tbody></table>
+<h3 id="2022-年新发布"><a href="#2022-年新发布" class="headerlink" title="2022 年新发布"></a>2022 年新发布</h3><table>
+<thead>
+<tr>
+<th>标准号</th>
+<th>名称</th>
+<th>发布日期</th>
+<th>实施日期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=97F140EC1874D4C25CB8DC53B1D102D0">GB 42250-2022</a></td>
+<td>信息安全技术 网络安全专用产品安全技术要求</td>
+<td>2022-12-29</td>
+<td>2023-07-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=62C795EBF1BF0200A7161718CEFAABA8">GB&#x2F;T 41817-2022</a></td>
+<td>信息安全技术 个人信息安全工程指南</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=BE74B9780B8C4852D62CF47F282478B6">GB&#x2F;T 41819-2022</a></td>
+<td>信息安全技术 人脸识别数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=EACA08F5F077771ACE82FBE7987F40AE">GB&#x2F;T 41806-2022</a></td>
+<td>信息安全技术 基因识别数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=2137495F032BA9E69A753016027D271C">GB&#x2F;T 41773-2022</a></td>
+<td>信息安全技术 步态识别数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=AF1E9400C0F9C7051C33F773274825EA">GB&#x2F;T 41807-2022</a></td>
+<td>信息安全技术 声纹识别数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=9679A3BF5D736D7FC92FD8157AAAAC82">GB&#x2F;T 42014-2022</a></td>
+<td>信息安全技术 网上购物服务数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=136B8F06A548FAE8ABB375E4C65C1E38">GB&#x2F;T 42012-2022</a></td>
+<td>信息安全技术 即时通信服务数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=CEB5771DBBF05ED5EA99EBA50896537F">GB&#x2F;T 42015-2022</a></td>
+<td>信息安全技术 网络支付服务数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=182AA2DDF9F1EB9A69193B9CA528BBC4">GB&#x2F;T 42017-2022</a></td>
+<td>信息安全技术 网络预约汽车服务数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=20615352AC128FC97F8005161976B921">GB&#x2F;T 42016-2022</a></td>
+<td>信息安全技术 网络音视频服务数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=CDBCE8F2E4CDE60A86092361A8796178">GB&#x2F;T 42013-2022</a></td>
+<td>信息安全技术 快递物流服务数据安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=4D3C5BB193E079AD54294E5845749B8F">GB&#x2F;T 41871-2022</a></td>
+<td>信息安全技术 汽车数据处理安全要求</td>
+<td>2022-10-14</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=1D986D9DCCC518D19DAD9431DD76053E">GB&#x2F;T 39204-2022</a></td>
+<td>信息安全技术 关键信息基础设施安全保护要求</td>
+<td>2022-10-12</td>
+<td>2023-05-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=5D7C9B95DB5F844C84F2F6C08843E2BB">GB&#x2F;T 41578-2022</a></td>
+<td>电动汽车充电系统信息安全技术要求及试验方法</td>
+<td>2022-07-11</td>
+<td>2023-02-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=B4272EB52F5930B214910854EFEA4C5F">GB&#x2F;T 41400-2022</a></td>
+<td>信息安全技术 工业控制系统信息安全防护能力成熟度模型</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=FDA38AB7D08A715C6B6D69DFDEABB2C0">GB&#x2F;T 20984-2022</a></td>
+<td>信息安全技术 信息安全风险评估方法</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=2134DD3D7ED96B383E61C496D6E19D58">GB&#x2F;T 41574-2022</a></td>
+<td>信息技术 安全技术 公有云中个人信息保护实践指南</td>
+<td>2022-07-11</td>
+<td>2023-02-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C12A71EBE05397BE0A0AF33F">GB&#x2F;T 41387-2022</a></td>
+<td>信息安全技术 智能家居通用安全规范</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C12C71EBE05397BE0A0AF33F">GB&#x2F;T 41388-2022</a></td>
+<td>信息安全技术 可信执行环境 基本安全规范</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C12E71EBE05397BE0A0AF33F">GB&#x2F;T 41389-2022</a></td>
+<td>信息安全技术 SM9 密码算法使用规范</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C13071EBE05397BE0A0AF33F">GB&#x2F;T 41391-2022</a></td>
+<td>信息安全技术 移动互联网应用程序（App）收集个人信息基本要求</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C12471EBE05397BE0A0AF33F">GB&#x2F;T 41479-2022</a></td>
+<td>信息安全技术 网络数据处理安全要求</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C09371EBE05397BE0A0AF33F">GB&#x2F;T 20984-2022</a></td>
+<td>信息安全技术 信息安全风险评估方法<br />代替标准号：<a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D786C1D3A7E05397BE0A0AB82A">GB&#x2F;T 20984-2007</a> 信息安全技术 信息安全风险评估规范</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C12171EBE05397BE0A0AF33F">GB&#x2F;T 29829-2022</a></td>
+<td>信息安全技术 可信计算密码支撑平台功能与接口规范<br />代替标准号：<a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E974D3A7E05397BE0A0AB82A">GB&#x2F;T  29829-2013</a> 信息安全技术 可信计算密码支撑平台功能与接口规范</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C13471EBE05397BE0A0AF33F">GB&#x2F;T 30283-2022</a></td>
+<td>信息安全技术 信息安全服务 分类与代码<br />代替标准号：<a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7EDA9D3A7E05397BE0A0AB82A">GB&#x2F;T 30283-2013</a> 信息安全技术 信息安全服务 分类</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=DD3D95E5C12B71EBE05397BE0A0AF33F">GB&#x2F;T 31506-2022</a></td>
+<td>信息安全技术 政务网站系统安全指南<br />代替标准号：<a target="_blank" rel="noopener" href="http://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D804F5D3A7E05397BE0A0AB82A">GB&#x2F;T 31506-2015</a> 信息安全技术 政府门户网站系统安全技术指南</td>
+<td>2022-04-15</td>
+<td>2022-11-01</td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener" href="https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=56123482721B1AC3CEDCD3B5C022CAD8">GB&#x2F;T 25069-2022</a></td>
+<td>信息安全技术 术语</td>
+<td>2022-03-09</td>
+<td>2022-10-01</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="http://www.cac.gov.cn/2022-01/04/c_1642894602182845.htm">网络安全审查办法</a></td>
+<td>2022-01-04</td>
+<td>2022-2-15</td>
+</tr>
+</tbody></table>
+<h3 id="2021-年及以前（按体系分类）"><a href="#2021-年及以前（按体系分类）" class="headerlink" title="2021 年及以前（按体系分类）"></a>2021 年及以前（按体系分类）</h3><h4 id="一般性法律规定"><a href="#一般性法律规定" class="headerlink" title="一般性法律规定"></a>一般性法律规定</h4><ul>
+<li>《中华人民共和国宪法》，法律效力位阶：宪法，施行日期：2018-03-11</li>
+<li>《中华人民共和国国家安全法》，法律效力位阶：法律，施行日期：2015-07-01</li>
+<li>《中华人民共和国治安管理处罚法》，法律效力位阶：法律，施行日期：2013-01-01</li>
+<li>《中华人民共和国保守国家秘密法》，法律效力位阶：法律，施行日期：2010-10-01</li>
+</ul>
+<h4 id="规范和惩罚信息网络犯罪的法律"><a href="#规范和惩罚信息网络犯罪的法律" class="headerlink" title="规范和惩罚信息网络犯罪的法律"></a>规范和惩罚信息网络犯罪的法律</h4><ul>
+<li>《中华人民共和国刑法》，法律效力位阶：法律，施行日期：2021-03-01</li>
+<li>《全国人民代表大会常务委员会关于维护互联网安全的决定》法律效力位阶：有关法律问题和重大问题的决定，施行日期：2000-12-28</li>
+</ul>
+<h4 id="直接针对信息安全的特别规定"><a href="#直接针对信息安全的特别规定" class="headerlink" title="直接针对信息安全的特别规定"></a>直接针对信息安全的特别规定</h4><ul>
+<li>《中华人民共和国网络安全法》，法律效力位阶：法律，施行日期：2017-06-01</li>
+<li>《中华人民共和国计算机信息系统安全保护条例》，法律效力位阶：行政法规，公布日期：2011-01-08</li>
+<li>《中华人民共和国电信条例》，法律效力位阶：行政法规，公布日期：2016-02-06</li>
+<li>《中华人民共和国计算机信息网络国际联网管理暂行规定》，法律效力位阶：行政法规，公布日期：1997-05-20</li>
+<li>《计算机信息网络国际联网安全保护管理办法》，法律效力位阶：行政法规，公布日期：2011-01-08</li>
+</ul>
+<h4 id="具体规范信息安全技术、信息安全管理"><a href="#具体规范信息安全技术、信息安全管理" class="headerlink" title="具体规范信息安全技术、信息安全管理"></a>具体规范信息安全技术、信息安全管理</h4><ul>
+<li>《中华人民共和国电子签名法》，法律效力位阶：法律，施行日期：2019-04-23</li>
+<li>《计算机软件保护条例》，法律效力位阶：行政法规，公布日期：2013-01-30</li>
+<li>《商用密码管理条例》，法律效力位阶：行政法规，公布日期：1999-10-07</li>
+<li>《中华人民共和国保守国家秘密法实施条例》，法律效力位阶：行政法规，公布日期：2014-01-17</li>
+<li>GB&#x2F;T 37090-2018《信息安全技术 病毒防治产品安全技术要求和测试评价方法》，施行日期：2019-07-01</li>
+<li>《计算机信息系统国际联网保密管理规定》，颁布单位：国家保密局，施行日期：2000-01-01</li>
+<li>《金融机构计算机信息系统安全保护工作暂行规定》，颁布单位：公安部，颁布时间：1998-08-31</li>
+</ul>
+<h2 id="关键词"><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h2><h3 id="安全等级保护"><a href="#安全等级保护" class="headerlink" title="安全等级保护"></a>安全等级保护</h3><ul>
+<li>GB&#x2F;T 22240-2020，《信息安全技术 网络安全等级保护定级指南》，发布日期：2020-04-28，2020-11-01</li>
+<li>GB&#x2F;T 25058-2019，《信息安全技术 网络安全等级保护实施指南》，发布日期：2019-08-30，2020-03-01</li>
+<li>GB&#x2F;T 25070-2019，《信息安全技术 网络安全等级保护安全设计技术要求》，发布日期：2019-05-10，2019-12-01</li>
+<li>GB&#x2F;T 22239-2019，《信息安全技术 网络安全等级保护基本要求》，发布日期：2019-05-10，2019-12-01</li>
+<li>GB&#x2F;T 28448-2019，《信息安全技术 网络安全等级保护测评要求》，发布日期：2019-05-10，2019-12-01</li>
+<li>GB&#x2F;T 28449-2018，《信息安全技术 网络安全等级保护测评过程指南》，发布日期：2018-12-28，2019-07-01</li>
+<li>GB&#x2F;T 36958-2018，《信息安全技术 网络安全等级保护安全管理中心技术要求》，发布日期：2018-12-28，2019-07-01</li>
+<li>GB&#x2F;T 36959-2018，《信息安全技术 网络安全等级保护测评机构能力要求和评估规范》，发布日期：2018-12-28，2019-07-01</li>
+<li>GB&#x2F;T 37138-2018，《电力信息系统安全等级保护实施指南》，发布日期：2018-12-28，2019-07-01</li>
+<li>GB&#x2F;T 36627-2018，《信息安全技术 网络安全等级保护测试评估技术指南》，发布日期：2018-09-17，2019-04-01</li>
+<li>GB&#x2F;T 35317-2017，《公安物联网系统信息安全等级保护要求》，发布日期：2017-12-29，2017-12-29</li>
+</ul>
+<h3 id="数据安全"><a href="#数据安全" class="headerlink" title="数据安全"></a>数据安全</h3><ul>
+<li>GB&#x2F;T 43739-2024《数据安全技术 应用商店的移动互联网应用程序（App）个人信息处理规范性审核与管理指南》，发布日期：2024-04-25，实施日期：2024-11-01</li>
+<li>GB&#x2F;T 43697-2024《数据安全技术 数据分类分级规则》，发布日期：2024-03-15，实施日期：2024-10-01</li>
+<li>GB&#x2F;T 42775-2023《证券期货业数据安全风险防控 数据分类分级指引》，发布日期：2023-08-06，实施日期：2023-08-06</li>
+<li>GB&#x2F;T 35274-2023《数据安全技术 大数据服务安全能力要求》，发布日期：2023-08-06，实施日期：2024-03-01</li>
+<li>GB&#x2F;T 42447-2023《信息安全技术 电信领域数据安全指南》，发布日期：2023-03-17，实施日期：2023-10-01</li>
+<li>GB&#x2F;T 41819-2022《信息安全技术 人脸识别数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 41806-2022《信息安全技术 基因识别数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 41773-2022《信息安全技术 步态识别数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 41807-2022《信息安全技术 声纹识别数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 42014-2022《信息安全技术 网上购物服务数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 42012-2022《信息安全技术 即时通信服务数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 42015-2022《信息安全技术 网络支付服务数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 42017-2022《信息安全技术 网络预约汽车服务数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 42016-2022《信息安全技术 网络音视频服务数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 42013-2022《信息安全技术 快递物流服务数据安全要求》，发布日期：2022-10-14，实施日期：2023-05-01</li>
+<li>GB&#x2F;T 39725-2020《信息安全技术 健康医疗数据安全指南》，发布日期：2020-12-14，实施日期：2021-07-01</li>
+<li>GB&#x2F;T 39477-2020《信息安全技术 政务信息共享 数据安全技术要求》，发布日期：2020-11-19，实施日期：2021-06-01</li>
+<li>GB&#x2F;T 37973-2019《信息安全技术 大数据安全管理指南》，发布日期：2019-08-30，实施日期：2020-03-01</li>
+<li>GB&#x2F;T 37988-2019《信息安全技术 数据安全能力成熟度模型》，发布日期：2019-08-30，实施日期：2020-03-01</li>
+<li>GB&#x2F;T 37373-2019《智能交通 数据安全服务》，发布日期：2019-05-10，实施日期：2019-12-01</li>
+</ul>
+<h3 id="开源软件"><a href="#开源软件" class="headerlink" title="开源软件"></a>开源软件</h3><ul>
+<li>GB&#x2F;T 42927-2023《金融行业开源软件测评规范》，发布日期：2023-08-06，实施日期：2023-08-06</li>
+</ul>
+<h3 id="信创"><a href="#信创" class="headerlink" title="信创"></a>信创</h3><ul>
+<li>网络关键设备和网络安全专用产品安全认证和安全检测结果检索，发布日期：2024-06-28（共 3286 项，符合标准 GB 42250-2022 等）</li>
+<li>《网络关键设备和网络安全专用产品目录》，发布日期：2023-07-03</li>
+</ul>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.smallhao.ddns-ip.net/IMG_6062.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description">欢迎大家来到SmallHao日常技术分享Blog，欢迎大家前来评论讨论</div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(https://img.smallhao.ddns-ip.net/wetchat.png) center center / 100% no-repeat"></div></div></div></div><div class="sticky_layout"><div class="card-widget"><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/%E6%94%BB%E9%98%B2%E7%9F%A5%E8%AF%86/" style="font-size: 1.05rem;">攻防知识<sup>5</sup></a></div></div><hr/><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/03/"><span class="card-archive-list-date">三月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li></ul></div><hr/><div class="card-webinfo"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-file-lines"></i><div class="item-name">文章总数 :</div></div><div class="item-count">5</div></div><div class="webinfo-item"><div class="webinfo-item-title"><i class="anzhiyufont anzhiyu-icon-stopwatch"></i><div class="item-name">建站天数 :</div></div><div class="item-count" id="runtimeshow" data-publishDate="2021-03-31T16:00:00.000Z"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></div></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2025 By <a class="footer-bar-link" href="/" title="SmallHao" target="_blank">SmallHao</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">1</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">0</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.smallhao168.us.kg/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/zhangyangshijia1/" title="SmallHao开源项目"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="SmallHao开源项目"/><span class="back-menu-item-text">SmallHao开源项目</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 免责声明</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 免责声明</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/%E8%BD%AC%E8%BD%BD%E9%A1%BB%E7%9F%A5/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 转载须知</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/%E6%94%BB%E9%98%B2%E7%9F%A5%E8%AF%86/" style="font-size: 0.88rem;">攻防知识<sup>5</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 SmallHao 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="anzhiyu"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script id="click-heart" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/click-heart.min.js" async="async" mobile="false"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
