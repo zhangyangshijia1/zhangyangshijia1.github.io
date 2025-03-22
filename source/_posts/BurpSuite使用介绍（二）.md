@@ -8,7 +8,7 @@ categories:
 - - 技术文章
 comments: null
 copyright: null
-copyright_author: null
+copyright_author: 转载
 copyright_author_href: null
 copyright_info: null
 copyright_url: null
@@ -29,7 +29,7 @@ toc_style_simple: null
 top: null
 top_group_index: 10
 top_img: null
-updated: '2025-03-22T22:33:34.846+08:00'
+updated: '2025-03-22T22:51:10.852+08:00'
 ---
 Burp Repeater(中继器)是用于手动操作和补发个别HTTP请求，并分析应用程序的响应一个简单的工具。您可以发送一个内部请求从Burp任何地方到Repeater(中继器)，修改请求并且发送它。
 
