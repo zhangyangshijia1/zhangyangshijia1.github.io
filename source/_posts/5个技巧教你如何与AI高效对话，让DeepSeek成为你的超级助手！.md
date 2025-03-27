@@ -8,7 +8,7 @@ categories:
 - - AI信息
 comments: null
 copyright: null
-copyright_author: 原创
+copyright_author: ' 原创'
 copyright_author_href: null
 copyright_info: null
 copyright_url: null
@@ -30,7 +30,7 @@ toc_style_simple: null
 top: null
 top_group_index: 10
 top_img: null
-updated: '2025-03-27T22:30:45.542+08:00'
+updated: '2025-03-27T22:35:49.111+08:00'
 ---
 在这个AI时代，会提问的人已经悄悄领先了。你是不是也遇到过这样的情况：向ChatGPT提问后，得到的回答总是泛泛而谈，或者完全不是你想要的方向？别着急，今天我就来教你5个绝妙技巧，让你的AI对话效率提升300%！
 
